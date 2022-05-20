@@ -26,7 +26,7 @@
         padding-left: 12px;
         padding-top: 1px;
     }
-    &__skills {
+    &__skills-ul {
         grid-column: 2/3;
         display: grid;
         grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
