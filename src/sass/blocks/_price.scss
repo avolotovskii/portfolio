@@ -6,6 +6,7 @@
         grid-template: repeat(3, minmax(44px, 1fr)) / repeat(2, 410px);
         justify-content: space-between;
         row-gap: 15px;
+        grid-auto-rows: minmax(45px, auto);
     }
     &__item {
         padding-left: 75px;
