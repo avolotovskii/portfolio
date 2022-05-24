@@ -1,5 +1,15 @@
 .resume {
     padding-top: 120px;
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before-circle;
+        &:before {
+            right: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
     &__wrapper {
         padding: 60px 65px 0 65px;
         display: grid;
